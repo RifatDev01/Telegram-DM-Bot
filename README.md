@@ -5,7 +5,7 @@
 **নতুন ফিচার:** এখন ডায়নামিক রিপ্লাই সিস্টেম! `replies.js` ফাইলে মেসেজ এবং রিপ্লাই সেট করুন। উদাহরণ: "hi" লিখলে "Hello!" রিপ্লাই যাবে, "assalamualaikum" লিখলে "Walaikumassalam" রিপ্লাই যাবে।
 
 ## Quick Start
-
+ 
 ### 1. API Credentials নিন
 
 [my.telegram.org](https://my.telegram.org) থেকে API ID এবং API Hash নিন।
