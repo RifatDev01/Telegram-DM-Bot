@@ -24,8 +24,8 @@ copy .env.example .env
 
 `.env` ফাইলে API_ID এবং API_HASH দিন:
 ```
-API_ID=33747218
-API_HASH=d96c70e9eba1387bb2f0569c51678122
+API_ID=xxxxxxx
+API_HASH=xxxxxxxxxxxxxxxxxxxx
 SESSION_STRING=
 ```
 
