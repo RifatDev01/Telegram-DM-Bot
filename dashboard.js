@@ -24,9 +24,9 @@ function isBotRunning() {
         if (fs.existsSync(BOT_START_TIME_FILE)) {
             const startTime = new Date(fs.readFileSync(BOT_START_TIME_FILE, 'utf8'));
             const now = new Date();
-            // If bot started within last 5 minutes, consider it running
+            // If bot started within last 1 minute, consider it running
             const diffMinutes = (now - startTime) / 1000 / 60;
-            return diffMinutes < 5;
+            return diffMinutes < 1;
         }
         return false;
     } catch (error) {
